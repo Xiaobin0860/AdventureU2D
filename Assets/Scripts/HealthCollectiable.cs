@@ -6,7 +6,7 @@ public class HealthCollectiable : MonoBehaviour
 {
     void OnTriggerEnter2D(Collider2D other)
     {
-        Debug.Log(other + " entered the trigger");
+        Debug.Log(other + " entered the Health trigger");
         RubyController controller = other.GetComponent<RubyController>();
         if (controller)
         {
